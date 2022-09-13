@@ -1,0 +1,47 @@
+html{
+    font-family: 'Noto Sans JP', sans-serif;
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+}
+#table1{
+    border-top: 5px solid black;
+    border-right: 5px solid black;
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+    background-color: wheat;
+}
+#menu{
+    text-align: center;
+    padding: 5px 15.15em 5px 15.15em;
+    background-color: wheat;
+    border: 5px solid black;
+}
+#text{
+    max-width: 53ch;
+    text-align: center;
+    padding: 10px 61px 10px 61px;
+    background-color: wheat;
+    border: 5px solid black;
+}
+#rodape{
+    text-align: center;
+    background-color: wheat;
+    border: 5px solid black;
+    padding: 1px 7.5em 1px 7.5em;
+}
+.transition{
+    transition: 0.5s;
+}
+@keyframes PNG {
+    0.0%{
+        transform: rotate(180deg) scale(0.5);
+    }
+    13.5%{
+        transform: rotate(0) scale(1.5);
+    }
+    5.8%{
+        transform: rotate(0) scale(0.5);
+    }
+}
+#elementa{
+    animation: PNG 3s ease 0s 1 normal none;
+}
